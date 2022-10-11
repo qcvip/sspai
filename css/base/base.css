@@ -1,0 +1,67 @@
+.content {
+  width: 1400px;
+  overflow-x: hidden;
+  font-size: 70%;
+  margin: 500px 260px;
+  padding: 0;
+}
+.waterfull ul li {
+  float: left;
+  width: 284px;
+  margin: 20px 6px 10px;
+  background: white;
+  border-radius: 3px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+.waterfull ul li:hover {
+  box-shadow: 0 0 10px #bcbcbc;
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+.waterfull ul li .a-img img {
+  width: 284px;
+  display: block;
+  min-height: 250px;
+}
+.waterfull ul li .li-title {
+  padding: 5px;
+  max-height: 48px;
+  overflow: hidden;
+  line-height: 24px;
+}
+
+.waterfull ul li .description {
+  overflow: hidden;
+  line-height: 22px;
+  color: #898686;
+  font-size: 1.3em;
+}
+
+#imloading {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 3px;
+  opacity: 0.7;
+  background: #000;
+  margin: 10px auto 30px;
+  color: #fff;
+  display: none;
+}
+
+#db {
+  float: left;
+  width: 900px;
+  height: 40px;
+  margin: 10px 0px 0px 650px;
+}
+#db a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 20px;
+}

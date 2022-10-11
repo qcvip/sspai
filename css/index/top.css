@@ -1,0 +1,131 @@
+.top {
+  height: 60px;
+  width: 1920px;
+  background: #232222;
+  margin: -8px;
+}
+.middle {
+  float: left;
+  margin: -46px 0px 0px 500px;
+}
+.middle li {
+  list-style: none; /*去掉li前面的点*/
+}
+.left img {
+  margin-top: 5px;
+}
+.middle .a1 {
+  float: left;
+  margin-top: 0px;
+  width: 140px;
+  height: 45px;
+  z-index: 6;
+  position: relative;
+}
+/*完成顶级菜单*/
+.middle a {
+  display: block;
+  width: 140px;
+  height: 30px;
+  text-decoration: none; /*去掉下划线*/
+  background-color: #232222;
+  color: #fff;
+  text-align: center;
+}
+
+.right button {
+  border-radius: 12px;
+  width: 70px;
+  margin: -35px 80px 0px 0px;
+  float: right;
+}
+.top .middle .aa1 {
+  position: relative;
+  margin: 50px 0px 0px -100px;
+  width: 430px;
+  height: 200px;
+  background: #655e5e;
+  display: none;
+  padding-top: 1px;
+  z-index: 15;
+}
+.top .middle .aa1 .nr1 {
+  margin-top: 50px;
+}
+.top .middle .aa1 .sx {
+  position: relative;
+  width: 0;
+  height: 120px;
+  border-left: 1px solid white;
+  margin: -80px 0px 0px 200px;
+}
+.top .middle .aa1 .nr2 {
+  float: left;
+  margin: -125px 0px 0px 230px;
+}
+.top .middle .aa1 a {
+  background: #655e5e;
+}
+.top .middle .aa2 {
+  position: relative;
+  margin: 50px 0px 0px 85px;
+  width: 430px;
+  height: 200px;
+  background: #655e5e;
+  display: none;
+  padding-top: 1px;
+  z-index: 15;
+}
+.top .middle .aa2 a {
+  background: #655e5e;
+}
+.top .middle .aa2 .nr1 {
+  margin-top: 50px;
+}
+.top .middle .aa2 .sx {
+  position: relative;
+  width: 0;
+  height: 120px;
+  border-left: 1px solid white;
+  margin: -80px 0px 0px 200px;
+}
+.top .middle .aa2 .nr2 {
+  float: left;
+  margin: -125px 0px 0px 230px;
+}
+.top .middle .aa3 {
+  position: relative;
+  margin: 50px 0px 0px 270px;
+  width: 430px;
+  height: 200px;
+  background: #655e5e;
+  display: none;
+  padding-top: 1px;
+  z-index: 15;
+}
+.top .middle .aa3 .nr1 {
+  margin-top: 50px;
+}
+.top .middle .aa3 .sx {
+  position: relative;
+  width: 0;
+  height: 120px;
+  border-left: 1px solid white;
+  margin: -80px 0px 0px 200px;
+}
+.top .middle .aa3 .nr2 {
+  float: left;
+  margin: -120px 0px 0px 230px;
+}
+.top .middle .aa3 a {
+  background: #655e5e;
+}
+.top .middle li {
+  color: #fff;
+  padding: 10px 0px 0px 40px;
+  font-size: 10px;
+}
+.body{
+  margin:  auto;
+  width:1800px;
+}

@@ -1,0 +1,32 @@
+.column {
+  width: 1200px;
+  height: 300px;
+  position: relative;
+  margin: 40px 380px;
+}
+.column .left {
+  width: 800px;
+  height: 300px;
+  background: url("../../img/series/1.jpg") no-repeat;
+  background-size: 104%;
+}
+.column .right {
+  position: absolute;
+  margin: -300px 850px;
+  width: 320px;
+  height: 300px;
+  background: #f9f9f9;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#db {
+  float: left;
+  width: 900px;
+  height: 40px;
+  margin: 100px 0px 0px 650px;
+}
+#db a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 20px;
+}

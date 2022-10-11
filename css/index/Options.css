@@ -1,0 +1,23 @@
+.Options {
+  float: left;
+  position: absolute;
+  margin: 400px 385px;
+  width: 1150px;
+}
+.Options li {
+  list-style-type: none;
+  height: 140px;
+  width: 250px;
+  float: left;
+  overflow: hidden;
+  margin-right: 30px;
+  border-radius: 8%;
+}
+.Options li img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.Options li img:hover{
+  transform: scale(1.1);
+}

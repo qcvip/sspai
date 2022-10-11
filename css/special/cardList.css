@@ -1,0 +1,61 @@
+.box .cardList {
+  width: 1050px;
+  margin: auto;
+  position: relative;
+}
+.box .cardList a {
+  float: left;
+  width: 255px;
+  height: 320px;
+  text-decoration: none;
+}
+.box .cardList img {
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 70px;
+  overflow: hidden;
+  position: absolute;
+  transition: transform 0.5s;
+}
+.box .cardList img:hover {
+  transform: scale(1.2);
+}
+.box .cardList .name {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin: 200px 0px 0px 10px;
+  font-size: 20px;
+}
+.box .cardList .description {
+  text-align: center;
+  width: 246px;
+  height: 80px;
+  margin: 10px 10px;
+  color: #fff;
+  opacity: 0.8;
+  display: none;
+}
+.box .footer {
+  position: relative;
+  border-top: 0.1px solid #dcdcdc;
+  margin-top: 3500px;
+  width: 1100px;
+  height: 100px;
+}
+.box .footer .left {
+  float: left;
+  width: 170px;
+  height: 200px;
+  background: url("../../img/special/nomo_foot.svg");
+  margin-left: 50px;
+  background-size: 100% 100%;
+}
+.box .footer .right a {
+  color: #fff;
+  text-decoration: none;
+  float: right;
+  margin-top: 60px;
+  padding: 0px 10px;
+}

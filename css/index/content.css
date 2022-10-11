@@ -1,0 +1,174 @@
+.content {
+  float: left;
+  position: absolute;
+  margin: 600px 0px 0px 370px;
+  z-index: -1;
+}
+.content .tab li {
+  list-style-type: none;
+  float: left;
+  border-radius: 8%;
+  margin-left: 25px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.content .tab li:hover {
+  color: red;
+}
+.tab1 {
+  color: red;
+  border-bottom: 3px solid red;
+  padding-bottom: 5px;
+}
+.content .News {
+  margin-top: 38px;
+  width: 780px;
+  height: 900px;
+}
+.content .News .News1 {
+  width: 750px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px 0px 0px 10px;
+  background-color: #f4f4f4;
+}
+.content .News .News1 .left img {
+  width: 54%;
+  border-radius: 20px;
+  margin-top: -5px;
+  transition: transform 0.3s;
+}
+.content .News .News1 .left img:hover {
+  transform: scale(1.2);
+}
+.content .News .News1 .right b {
+  float: left;
+  margin: -180px 0px 0px 450px;
+  font-size: 20px;
+}
+.content .News .News1 .right p {
+  float: left;
+  margin: -50px 0px 0px 450px;
+  color: red;
+}
+.content .Border {
+  width: 300px;
+  margin: -900px 0px 0px 800px;
+}
+.content .Border .B1 {
+  width: 300px;
+  height: 160px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.content .Border img {
+  width: 100%;
+}
+.content .News .scroll {
+  margin-top: 30px;
+  width: 750px;
+  height: 280px;
+  /* border: 3px solid red; */
+  overflow: hidden;
+}
+.content .News .scroll a {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0px 0px 15px;
+  width: 394px;
+}
+.content .News .scroll button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  color: #fff;
+  border: 0;
+  z-index: 100;
+  opacity: 0.8;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 15px 650px;
+}
+.content .News .scroll .bb2 {
+  margin: 15px 0px 0px 700px;
+
+}
+.content .News .scroll .scrolltop {
+  position: relative;
+  display: flex;
+
+}
+.content .News .scroll .scrolltop .scroll1 {
+  width: 220px;
+  height: 140px;
+  margin: 90px 5px 0px 15px;
+  flex-shrink: 0;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+.content .News .scroll .scrolltop .scroll1 img {
+  width: 100%;
+}
+
+.content .News .scroll .scrolltop .scroll1 a {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 110px 0px 0px -180px;
+  overflow: hidden;
+}
+.content .Matrix {
+  border: 5px solid darkgray;
+  width: 300px;
+  height: 560px;
+  position: relative;
+  margin: 0px 0px 0px 800px;
+  background: #f4f4f4;
+  /* border:  3px solid red; */
+}
+.content .Matrix > a {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-left: 100px;
+}
+.content .Matrix .Matrix1 {
+  padding: 29.8px;
+  border-bottom: 1px solid slategray;
+}
+.content .Matrix .Matrix1 p {
+  font-size: 18px;
+  color: red;
+}
+.content .Matrix .Matrix1 > a {
+  font-size: 18px;
+}
+.content .jw {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin: 20px 0px 0px 800px;
+  overflow: hidden;
+}
+.content .jw .a {
+  float: left;
+  position: relative;
+  width: 48px;
+  height: 20px;
+  margin: 80px 0 0 40px;
+}
+.content .jw li {
+  list-style: none;
+  font-size: 1px;
+  font-weight: bold;
+}
+.content .jw .a1 {
+  margin: 30px 10px 10px 40px;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  float: left;
+}

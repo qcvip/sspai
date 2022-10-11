@@ -1,0 +1,106 @@
+#main {
+  width: 1500px;
+  margin: 500px 280px;
+  float: left;
+  position: absolute;
+}
+#l {
+  float: left;
+  width: 800px;
+}
+#mains {
+  width: 700px;
+  border: 1px solid #e8e0e0;
+  height: 380px;
+  margin: 20px 0px 20px 100px;
+  padding: 10px 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+#mains:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+#a {
+  font-size: 5px;
+}
+#b {
+  float: right;
+}
+#c {
+  font-size: 2px;
+}
+#d {
+  width: 130px;
+  height: 150px;
+  float: left;
+  margin: 20px 10px;
+  background: #fce4d6;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+#e {
+  width: 130px;
+  height: 150px;
+  float: left;
+  margin: 20px 10px;
+  background: #ddebf7;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+#zzz {
+  line-height: 28px;
+  font-size: 1px;
+  color: #919191;
+}
+#r {
+  position: absolute;
+  float: left;
+  width: 300px;
+  margin: 100px 1080px;
+}
+#r a {
+  text-decoration: none;
+  color: #000000;
+}
+#tw {
+  width: 250px;
+  height: 200px;
+  margin: 0px 0px 50px 0px;
+}
+#db {
+  float: left;
+  width: 600px;
+  height: 40px;
+  margin: 10px 0px 0px 400px;
+}
+#db a {
+  text-decoration: none;
+  color: #707070;
+}
+.jw {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin: 1880px 0px 0px 1350px;
+  overflow: hidden;
+}
+.jw .a {
+  float: left;
+  position: relative;
+  width: 48px;
+  height: 20px;
+  margin: 80px 0 0 40px;
+}
+.jw li {
+  list-style: none;
+  font-size: 1px;
+  font-weight: bold;
+}
+.jw .a1 {
+  margin: 30px 10px 10px 40px;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  float: left;
+}

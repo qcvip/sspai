@@ -1,0 +1,26 @@
+.widget1 {
+  border: 3px solid red;
+  width: 1180px;
+  position: relative;
+  margin: 40px 380px;
+  height: 450px;
+}
+.widget1 > p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.widget1 .tab1 {
+  margin-left: 50px;
+  float: left;
+}
+.widget1 .tab1 .img {
+  width: 230px;
+  height: 300px;
+  border-radius: 15px;
+}
+.widget1 .tab1 p5 {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}

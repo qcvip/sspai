@@ -1,0 +1,53 @@
+* {
+  background: black;
+  margin: auto;
+}
+.box .banner {
+  width: 1890px;
+  height: 835px;
+  overflow: hidden;
+}
+.box .banner .back {
+  width: 10px;
+  list-style: none;
+  margin: 30px 0px 0px 200px;
+  height: 21px;
+  background: url("../../img/special/back.svg");
+}
+.box .banner a {
+  color: #fff;
+  margin: -22px 0px 0px 219px;
+  font-size: 18px;
+  position: absolute;
+  background-color: transparent;
+  z-index: 10;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.box .banner video {
+  width: 1890px;
+  filter: Alpha(Opacity=0);
+  opacity: 0.5;
+  margin-top: -80px;
+}
+.box .banner .img .svg1 {
+  background: url("../../img/special/nomo_home.svg");
+  width: 160px;
+  height: 68px;
+  position: absolute;
+  margin: -645px 0px 0px 855px;
+}
+.box .banner .img .svg2 {
+  background: url("../../img/special/nomoxsspai.svg");
+  width: 168px;
+  height: 20px;
+  position: absolute;
+  margin: -276px 0px 0px 855px;
+}
+.box .txt {
+  font-size: 20px;
+  color: white;
+  width: 660px;
+  text-align: center;
+  margin: 170px auto;
+}
