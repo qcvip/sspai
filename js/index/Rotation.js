@@ -33,7 +33,7 @@ $(function () {
     timer = setInterval(function () {
       num++;
       play();
-    }, 1500);
+    }, 3000);
   }
   $("#Rotation")
     .mouseover(function () {
@@ -48,7 +48,7 @@ $(function () {
       state = false;
       num--;
       console.log(num);
-      // play();
+      play();
     }
   });
   $(".next").click(function () {
