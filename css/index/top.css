@@ -126,6 +126,9 @@
   font-size: 10px;
 }
 .body{
-  margin:  auto;
-  width:1800px;
+  /* margin:auto -15px auto 0px; */
+  width:100px;
+}
+.html{
+  margin: auto;
 }
